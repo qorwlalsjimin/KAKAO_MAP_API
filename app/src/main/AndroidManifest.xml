@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.hs.s2104.map_api">
+
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+    </uses-permission>
+
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="6b3b1007ced05a28564a1e5c38200b5a"/>
 
     <application
         android:allowBackup="true"
