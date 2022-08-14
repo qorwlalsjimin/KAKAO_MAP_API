@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         MapView mapView = new MapView(this);
-//
-//        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
-//        mapViewContainer.addView(mapView);
+
+        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+        mapViewContainer.addView(mapView);
     }
 
 }
